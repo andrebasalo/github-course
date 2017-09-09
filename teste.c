@@ -14,11 +14,10 @@ int main (void)
     printf("Digite o numero 2");
     scanf ("%d",&numero2);
 
-    soma = numero1+numero2;
-    printf("%d\n",soma);
-	
-    menos = nemero1 - numero2;
-    printf("%d",menos);
+    soma = numero1 + numero2;
+    menos = numero1 - numero2;
+    printf("Soma é igual a = %d\n",soma);
+    printf("Subtração é igual a = %d\n",menos);
 
 
 
