@@ -30,10 +30,10 @@ int main(int argc, char** argv) {
     int n;
     
     
-    printf("Digite a posicao: ");
+    printf("Qual posicao voce deseja buscar: %d\n",n);
     //scanf("%d", &n);
     n = atoi(argv[1]);
-    printf("O termo %d da sequencia fibonacci é : %d\n",n, fibonacci(n));
+    printf("O termo %d da sequencia fibonacci e : %d\n",n, fibonacci(n));
     
     system("pause");
     return 0;
