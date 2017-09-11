@@ -22,7 +22,7 @@ int main(int argc, char** argv)
         {
             printf("Elemento [%d][%d]: ", linha+1, coluna+1);
            linha = atoi(argv[1]);
-           coluna = atoi(argv[2])
+           coluna = atoi(argv[2]);
            
            //scanf("%d", &matriz[linha][coluna]);
             if(matriz[linha][coluna] < 0)
