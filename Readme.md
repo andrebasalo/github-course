@@ -1,7 +1,4 @@
-#Git Course teste
+#Git Course 
 
-Este é um repositorio git
+Este é um repositorio git de André Basalo
 
-Saima mais em bla bla bla
-
-Gostou do curso? quer mais ? pague algo 
