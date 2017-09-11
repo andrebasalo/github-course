@@ -3,7 +3,7 @@
 
 
 #define NUM_LINHAS 2
-#define NUM_COLUNAS 5
+#define NUM_COLUNAS 2
 
 
 int main(int argc, char** argv)
