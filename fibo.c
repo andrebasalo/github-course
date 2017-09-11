@@ -29,10 +29,11 @@ int fibonacci(int n) {
 int main(int argc, char** argv) {
     int n;
     
-    
-    printf("Qual posicao voce deseja buscar: %d\n",n);
+        
     //scanf("%d", &n);
+    // passando argumento via terminal
     n = atoi(argv[1]);
+    printf("Qual posicao voce deseja buscar: %d\n",n);
     printf("O termo %d da sequencia fibonacci e : %d\n",n, fibonacci(n));
     
     system("pause");
