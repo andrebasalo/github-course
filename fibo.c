@@ -31,8 +31,8 @@ int main(int argc, char** argv) {
     
     
     printf("Digite a posicao: ");
-    scanf("%d", &n);
-    
+    //scanf("%d", &n);
+        n = atoi(argv[1]);
     printf("O termo: %d\n", fibonacci(n));
     
     system("pause");
